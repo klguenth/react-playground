@@ -3,6 +3,7 @@ import Split from './composition/Split';
 import './App.css';
 import Tooltip from './composition/Tooltip';
 import Messages from './Messages';
+import TheDate from './TheDate';
 
 // make 2 tooltips here and another inside the App directly
 const firstTooltip = (
