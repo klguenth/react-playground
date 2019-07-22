@@ -4,7 +4,7 @@ import './App.css';
 import Tooltip from './composition/Tooltip';
 import Messages from './Messages';
 import TheDate from './state/TheDate';
-import Counter from './src/state/Counter';
+import Counter from './state/Counter';
 
 // make 2 tooltips here and another inside the App directly
 const firstTooltip = (
