@@ -1,17 +1,22 @@
+import React from "react"
+
 class Counter extends React.Component {
     state = {
       count: 0
     };
-    render() {
+    handleButtonClick() {
+        console.log('clicked!')
+      }
+      render() {
         return (
           <div>
             <p>The current count: {this.state.count}</p>
-            <button
-              onClick={function() { console.log('clicked!') }}
-            >
+            <button onClick={this.handleButtonClick}>
               Add 1
             </button>
           </div>
         )
       }
   }
+
+  export default Counter
